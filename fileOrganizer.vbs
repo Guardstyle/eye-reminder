@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "C:\Python\Eye-remainder\fileOrganizer.bat", 0 , True

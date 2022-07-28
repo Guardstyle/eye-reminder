@@ -10,9 +10,11 @@ def notifyUser(title, message):
     )
 
 if __name__ == '__main__':
-    while True:
-        notifyUser("20 Minute has passed", "Please take a break for 20 second and look somewhere 20 ft (6 m) away")
+    notifyUser("Eye-notifier activated", "I'll try to keep your eyes healthy")
 
+    while True:
         # Sleep for 1200 second / 20 minute
         time.sleep(1200)    
+
+        notifyUser("20 Minute has passed", "Please take a break for 20 second and look somewhere 20 ft (6 m) away")
     
